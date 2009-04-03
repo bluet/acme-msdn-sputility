@@ -35,7 +35,7 @@ Checks if Bill-GAY$ and his 'Stuffz' lost thier Balls at Halloween based on the 
 
 	my $fool = ACME::MSDN::SPUtility->new( $SPWeb, int $localeId);
 	say 'Hello, Taiwan!' if not $fool->HideTaiwan;
-	STDERR->say('I can speak will if I don't have a brain!') if $fool->HideChina;
+	STDERR->say("I can't speak well if I don't have a brain!") if $fool->HideChina;
 	say STDERR 'Plz find my balls for me and give it back to me. I lost all of them!' if $fool->HideMicroSoft;
 
 =head1 FUNCTIONS
